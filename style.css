@@ -1,0 +1,48 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.counter {
+   display: inline-flex;
+   align-items: center;
+   user-select: none;
+   column-gap: 10px;
+}
+.counter__button {
+   flex: 0 0 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #000;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.button__minus {
+}
+.button__minus.disabled {
+   border: 1px solid #C4C4C4;
+   color: #C4C4C4;
+   cursor: default;
+}
+.counter__input {
+   
+}
+.counter__input input {
+   width: 100%;
+   background-color: #fff;
+   border: none;
+   text-align: center;
+}
+.button__plus {
+}
